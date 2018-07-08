@@ -1,0 +1,53 @@
+/* ==========================================================================
+   My skin
+   ========================================================================== */
+
+   /* system typefaces */
+   $serif: Georgia, Times, serif !default;
+   $sans-serif: -apple-system, BlinkMacSystemFont, "source-han-sans-japanese", "Roboto", "Segoe UI",
+     "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+   $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+
+   
+   $type-size-1: 1.953em !default; // ~31.248px
+   $type-size-2: 1.563em !default; // ~25.008px
+   $type-size-3: 1.25em !default; // ~20px
+   $type-size-4: 1em !default; // ~16px
+   $type-size-5: 0.75em !default; // ~12px
+   $type-size-6: 0.6875em !default; // ~11px
+   $type-size-7: 0.625em !default; // ~10px
+   $type-size-8: 0.6em !default;
+
+/* Colors */
+
+$gray: #7a8288 !default;
+$dark-gray: mix(#303030, $gray, 40%) !default;
+$darker-gray: mix(#000000, $gray, 60%) !default;
+$light-gray: mix(#fff, $gray, 50%) !default;
+$lighter-gray: mix(#fff, $gray, 90%) !default;
+
+$background-color: #ffffff !default;
+$code-background-color: #fafafa !default;
+$code-background-color-dark: $light-gray !default;
+$text-color: $dark-gray !default;
+$muted-text-color: mix(#fff, $text-color, 35%) !default;
+$border-color: $gray !default;
+$form-background-color: $lighter-gray !default;
+$footer-background-color: $lighter-gray !default;
+
+  .page {
+    .page__title {
+      color: $darker-gray;
+    }
+    .page__content {
+      h2 {
+        color: $darker-gray;
+      }
+      p,
+      li,
+      dl {
+        font-size: .85em;
+      }
+    }
+  }
